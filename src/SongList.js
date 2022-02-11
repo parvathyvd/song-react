@@ -6,12 +6,12 @@ const SongList  = ({songs, onClickSelect}) => {
                         <div className="ui list" key={song.title}>
                             <div className="item" style={{display:'flex', justifyContent: 'space-around'}}>
                                 <div className="header">{song.title}</div>
-                                <a className="" onClick={()=>onClickSelect(song)}>Select</a>
+                                <a className="" onClick={() => onClickSelect(song)}>Select</a>
                             </div>
                             <div className="ui fitted divider"></div>
                         </div>
                 )
-        })
+             })
     return(
         <div>
             {song}

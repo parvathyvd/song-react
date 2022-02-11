@@ -22,7 +22,7 @@ const songs = [
 const App = () => {
 
     const [selected, setSelected] = useState(songs[0]);
-    console.log('app', selected.title);
+    console.log('In the app component', selected.title);
 
     return(
         <div className="pt-5">
